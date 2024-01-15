@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="calc">
+        <div class="cal-body">
+            <div class="screen">
+                <input type="text" class="text"  id="num">
+            </div>
+            <div class="row">
+                <button onclick="clickmebn(this,7)" id="click-btn">7</button>
+                <button onclick="clickmebn(this,8)" id="click-btn">8</button>
+                <button onclick="clickmebn(this,9)" id="click-btn">9</button>
+                <button onclick="clickmebn(this,'/')" id="click-btn">/</button>
+            </div>
+            <div class="row">
+                <button onclick="clickmebn(this,4)"id="click-btn">4</button>
+                <button onclick="clickmebn(this,5)"id="click-btn">5</button>
+                <button onclick="clickmebn(this,6)"id="click-btn">6</button>
+                <button onclick="clickmebn(this,'*')" id="click-btn">x</button>
+            </div>
+            <div class="row">
+                <button onclick="clickmebn(this,1)" id="click-btn">1</button>
+                <button onclick="clickmebn(this,2)" id="click-btn">2</button>
+                <button onclick="clickmebn(this,3)" id="click-btn">3</button>
+                <button onclick="clickmebn(this,'+')"id="click-btn">+</button>
+            </div>
+            <div class="row">
+                <button onclick="clickmebn(this,0)" id="click-btn">0</button>
+                <button onclick="clickmebn(this,'-')" id="click-btn">-</button>
+                <button onclick="equl(this,'=')" id="click-btn">=</button>
+                <button onclick="clbn(this)" id="click-btn">C</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
