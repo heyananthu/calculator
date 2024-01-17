@@ -1,5 +1,5 @@
 function clickmebn(button, val) {
-    button.style.backgroundColor = "grey"
+    // button.style.backgroundColor = "grey"
     document.getElementById("num").value += val;
 }
 function clbn() {
